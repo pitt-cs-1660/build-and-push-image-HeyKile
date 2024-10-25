@@ -20,7 +20,7 @@ jobs:
         name: Authenticate to GCP
         with:
           project_id: 'mineral-cell-433922-k7' 
-          workload_identity_provider: 'projects/688065837356/locations/global/workloadIdentityPools/github/providers/my-repo'
+          workload_identity_provider: 'projects/688065837356/locations/global/workloadIdentityPools/github/providers/kb-assignment-3'
 
       # configure/login with docker
       - name: gcloud Configure Docker
