@@ -19,8 +19,8 @@ jobs:
         id: auth
         name: Authenticate to GCP
         with:
-          project_id: ${{ secrets.GCP_PROJECT_ID }} # update with your project ID
-          workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }} # update with your Workload Identity Pool
+          project_id: ${{ secrets.GCP_PROJECT_ID }} # secret sauce
+          workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }} # secret sauce squared
 
       # configure/login with docker
       - name: gcloud Configure Docker
