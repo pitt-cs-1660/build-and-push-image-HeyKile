@@ -47,4 +47,4 @@ jobs:
 #          docker push [GCP REGION].pkg.dev/[PROJECT ID]/[REPO NAME]/[IMAGE NAME]:[TAG]
 #          --> us-central1.pkg.dev/cc-fall2024/dansc0de/node-demo:v1 <--
 
-# maybe wrong policy?
+# I genuinely dont see any mistakes
