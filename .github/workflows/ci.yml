@@ -19,8 +19,8 @@ jobs:
         id: auth
         name: Authenticate to GCP
         with:
-          project_id: ${{ secrets.GCP_PROJECT_ID }} # secret sauce
-          workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }} # secret sauce squared
+          project_id: 'mineral-cell-433922-k7' 
+          workload_identity_provider: 'projects/688065837356/locations/global/workloadIdentityPools/github/providers/my-repo'
 
       # configure/login with docker
       - name: gcloud Configure Docker
@@ -47,4 +47,4 @@ jobs:
 #          docker push [GCP REGION].pkg.dev/[PROJECT ID]/[REPO NAME]/[IMAGE NAME]:[TAG]
 #          --> us-central1.pkg.dev/cc-fall2024/dansc0de/node-demo:v1 <--
 
-# please work :)
+# maybe wrong policy?
