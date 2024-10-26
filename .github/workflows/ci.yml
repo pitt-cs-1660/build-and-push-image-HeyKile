@@ -19,12 +19,12 @@ jobs:
         id: auth
         name: Authenticate to GCP
         with:
-          project_id: 'mineral-cell-433922-k7' 
-          workload_identity_provider: 'projects/688065837356/locations/global/workloadIdentityPools/github/providers/kb-assignment-3'
+          project_id: 'mineral-cell-433922-k7'
+          workload_identity_provider: 'projects/688065837356/locations/global/workloadIdentityPools/github/providers/kb-a3-us-central1'
 
       # configure/login with docker
       - name: gcloud Configure Docker
-        run: gcloud auth configure-docker us-east5.pkg.dev
+        run: gcloud auth configure-docker us-central1.pkg.dev
 
       # setup docker buildx
       - name: Setup docker buildx
@@ -38,7 +38,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: us-east5-docker.pkg.dev/mineral-cell-433922-k7/kb-assignment-3-github-ar/my-image:latest
+          tags: us-central1-docker.pkg.dev/mineral-cell-433922-k7/kb-a3-ar/my-image:latest
 
 # @note: you can use regular docker commands instead of the shared action
 #      - name: Build and Push Without Buildx
