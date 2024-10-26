@@ -38,7 +38,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: us-central1-docker.pkg.dev/mineral-cell-433922-k7/kb-a3-ar/my-image:latest
+          tags: us-central1-docker.pkg.dev/mineral-cell-433922-k7/github-actions-repo/my-image:latest
 
 # @note: you can use regular docker commands instead of the shared action
 #      - name: Build and Push Without Buildx
