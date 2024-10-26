@@ -1,0 +1,14 @@
+TimeSeries ID,workload_identity_federation/count.iam.googleapis.com/WorkloadIdentityPoolProvider.ALIGN_RATE.REDUCE_SUM.metric.type="iam.googleapis.com/workload_identity_federation/count" resource.type="iam.googleapis.com/WorkloadIdentityPoolProvider" metric.label."result"="success".60s.pool_id:github-pool.project_id:mineral-cell-433922-k7
+pool_id,github-pool
+project_id,mineral-cell-433922-k7
+Sat Oct 26 2024 17:37:00 GMT-0400 (Eastern Daylight Time),0.005833152774768468
+Sat Oct 26 2024 17:38:00 GMT-0400 (Eastern Daylight Time),0.010833513891898197
+Sat Oct 26 2024 17:40:00 GMT-0400 (Eastern Daylight Time),0.005833152774768468
+Sat Oct 26 2024 17:41:00 GMT-0400 (Eastern Daylight Time),0.028332972216203605
+Sat Oct 26 2024 17:42:00 GMT-0400 (Eastern Daylight Time),0.03250054167569459
+Sat Oct 26 2024 17:49:00 GMT-0400 (Eastern Daylight Time),0.005833152774768472
+Sat Oct 26 2024 17:50:00 GMT-0400 (Eastern Daylight Time),0.028332972216203605
+Sat Oct 26 2024 17:51:00 GMT-0400 (Eastern Daylight Time),0.03250054167569459
+Sat Oct 26 2024 17:53:00 GMT-0400 (Eastern Daylight Time),0.005833152774768472
+Sat Oct 26 2024 17:54:00 GMT-0400 (Eastern Daylight Time),0.028332972216203605
+Sat Oct 26 2024 17:55:00 GMT-0400 (Eastern Daylight Time),0.05
