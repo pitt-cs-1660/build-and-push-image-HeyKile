@@ -47,4 +47,4 @@ jobs:
 #          docker push [GCP REGION].pkg.dev/[PROJECT ID]/[REPO NAME]/[IMAGE NAME]:[TAG]
 #          --> us-central1.pkg.dev/cc-fall2024/dansc0de/node-demo:v1 <--
 
-# so i just changed something, idk what it would have done
+# i changed the principle so maybe it'll just work
